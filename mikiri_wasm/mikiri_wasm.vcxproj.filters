@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5061b12f-cfdf-4e06-8ee1-f92f84b00605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\example">
+      <UniqueIdentifier>{c2c79fe1-07b3-4a17-9e10-82538a4966e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ee4564ca-b664-40e3-a63d-d618f03600bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{af1cfb29-c8af-492c-84fe-b490b7e5a266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources">
+      <UniqueIdentifier>{00208cd6-26e0-4668-a437-2cef0eb5bd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine">
+      <UniqueIdentifier>{78119647-6ffd-4fed-9b26-954f2edc67d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\font">
+      <UniqueIdentifier>{cefaaac3-ad1e-4bd4-9dd8-5c07a83d87ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\font\min">
+      <UniqueIdentifier>{9afa93B8-5264-4e11-a2a9-ecec79805d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\font\mplus">
+      <UniqueIdentifier>{241845be-6dc4-4154-8141-a041e611de50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\shader">
+      <UniqueIdentifier>{55439721-4c35-4f3f-add9-a3f60b0085a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\shader\essl">
+      <UniqueIdentifier>{3a730d52-b997-463e-a026-2a59fbebf253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\shader\wgsl">
+      <UniqueIdentifier>{b6fc9618-dffa-452c-9ce5-a436a93b6bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\texture">
+      <UniqueIdentifier>{c45638f7-8621-4616-9a57-22f0da783fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\resources\engine\texture\box-shadow">
+      <UniqueIdentifier>{aeb4dbf4-f1ba-402b-9249-c3056a02598d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{3DC55764-A3B8-4D7E-AA91-C3C467637996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template Files\Embeddable">
+      <UniqueIdentifier>{1155355D-3484-407F-BCE3-BC5EB094E4DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\engine\font\min\LICENSE">
+      <Filter>Resource Files\resources\engine\font\min</Filter>
+    </None>
+    <None Include="resources\engine\font\min\siv3d-min.woff">
+      <Filter>Resource Files\resources\engine\font\min</Filter>
+    </None>
+    <None Include="resources\engine\font\mplus\LICENSE_E">
+      <Filter>Resource Files\resources\engine\font\mplus</Filter>
+    </None>
+    <None Include="resources\engine\font\mplus\mplus-1p-bold.ttf.zstdcmp">
+      <Filter>Resource Files\resources\engine\font\mplus</Filter>
+    </None>
+    <None Include="resources\engine\font\mplus\mplus-1p-light.ttf.zstdcmp">
+      <Filter>Resource Files\resources\engine\font\mplus</Filter>
+    </None>
+    <None Include="resources\engine\font\mplus\mplus-1p-thin.ttf.zstdcmp">
+      <Filter>Resource Files\resources\engine\font\mplus</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\apply_srgb_curve.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\bitmapfont.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\copy.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\forward3d.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\forward3d.vert">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\fullscreen_triangle.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\fullscreen_triangle.vert">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\gaussian_blur_9.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\line3d.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\line3d.vert">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\msdffont.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\msdffont_outline.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\msdffont_outlineshadow.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\msdffont_shadow.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\msdfprint.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\round_dot.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\sdffont.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\sdffont_outline.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\sdffont_outlineshadow.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\sdffont_shadow.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\shape.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\sky.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\sprite.vert">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\square_dot.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\essl\texture.frag">
+      <Filter>Resource Files\resources\engine\shader\essl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\apply_srgb_curve.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\bitmapfont.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\copy.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\forward3d.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\forward3d.vert.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\fullscreen_triangle.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\fullscreen_triangle.vert.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\gaussian_blur_9.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\line3d.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\line3d.vert.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\linear_to_screen.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\msdffont.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\msdffont_outline.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\msdffont_outlineshadow.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\msdffont_shadow.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\msdfprint.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\round_dot.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\sdffont.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\sdffont_outline.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\sdffont_outlineshadow.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\sdffont_shadow.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\shape.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\sky.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\sprite.vert.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\square_dot.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\shader\wgsl\texture.frag.wgsl">
+      <Filter>Resource Files\resources\engine\shader\wgsl</Filter>
+    </None>
+    <None Include="resources\engine\texture\box-shadow\128.png">
+      <Filter>Resource Files\resources\engine\texture\box-shadow</Filter>
+    </None>
+    <None Include="resources\engine\texture\box-shadow\16.png">
+      <Filter>Resource Files\resources\engine\texture\box-shadow</Filter>
+    </None>
+    <None Include="resources\engine\texture\box-shadow\256.png">
+      <Filter>Resource Files\resources\engine\texture\box-shadow</Filter>
+    </None>
+    <None Include="resources\engine\texture\box-shadow\32.png">
+      <Filter>Resource Files\resources\engine\texture\box-shadow</Filter>
+    </None>
+    <None Include="resources\engine\texture\box-shadow\64.png">
+      <Filter>Resource Files\resources\engine\texture\box-shadow</Filter>
+    </None>
+    <None Include="resources\engine\texture\box-shadow\8.png">
+      <Filter>Resource Files\resources\engine\texture\box-shadow</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Templates\Embeddable\web-player.html">
+      <Filter>Template Files\Embeddable</Filter>
+    </None>
+    <None Include="Templates\Embeddable\web-player.js">
+      <Filter>Template Files\Embeddable</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\mikiri\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

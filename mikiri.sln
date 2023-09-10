@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mikiri", "mikiri\mikiri.vcxproj", "{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mikiri_wasm", "mikiri_wasm\mikiri_wasm.vcxproj", "{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Emscripten = Debug|Emscripten
+		Debug|x64 = Debug|x64
+		Release|Emscripten = Release|Emscripten
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Debug|Emscripten.ActiveCfg = Debug|x64
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Debug|Emscripten.Build.0 = Debug|x64
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Debug|x64.ActiveCfg = Debug|x64
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Debug|x64.Build.0 = Debug|x64
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Release|Emscripten.ActiveCfg = Release|x64
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Release|Emscripten.Build.0 = Release|x64
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Release|x64.ActiveCfg = Release|x64
+		{4E3A8049-7BF8-48FC-AFFF-8DB8D1218FDA}.Release|x64.Build.0 = Release|x64
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Debug|Emscripten.ActiveCfg = Debug|Emscripten
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Debug|Emscripten.Build.0 = Debug|Emscripten
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Debug|x64.ActiveCfg = Debug|Emscripten
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Debug|x64.Build.0 = Debug|Emscripten
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Release|Emscripten.ActiveCfg = Release|Emscripten
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Release|Emscripten.Build.0 = Release|Emscripten
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Release|x64.ActiveCfg = Release|Emscripten
+		{C3F0A83E-9BA1-4B4A-8410-D68D419F530A}.Release|x64.Build.0 = Release|Emscripten
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F614E1-DE46-449A-81AC-1896A3024531}
+	EndGlobalSection
+EndGlobal
